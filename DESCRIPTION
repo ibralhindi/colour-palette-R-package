@@ -1,0 +1,24 @@
+Package: Ibrrra
+Title: Color Map for R Createdy by Ibrahim Al-Hindi
+Version: 1.0.0
+Authors@R: 
+    person(given = "Ibrahim",
+           family = "Al-Hindi",
+           role = c("aut", "cre"),
+           email = "imalh2@student.monash.edu")
+Description: This is a color map created by Ibrahim Al-Hindi for the purposes of fulfilling the requirements of ETC5523 assessment 3 requirements. The color map contains five colors. The package allows users to use the color palette for ggplot2 discrete and continuous color and fill scales.
+License: AGPL (>= 3)
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
+Imports: 
+    colorspace,
+    ggplot2
+Suggests: 
+    rmarkdown,
+    knitr,
+    palmerpenguins,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+VignetteBuilder: knitr
